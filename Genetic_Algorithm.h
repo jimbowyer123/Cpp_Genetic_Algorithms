@@ -12,7 +12,7 @@ Population run_simple_evo_algorithm(Population initial_population, function <flo
 		population.assign_scores(utility_function);
 		average_scores.push_back(population.average_score());
 		cout << population.average_score();
-		cout << '\n';
+		cout << "\n";
 		population.transform_scores();
 		population.normalise_scores();
 		Population mating_pool;
